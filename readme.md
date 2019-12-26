@@ -22,9 +22,9 @@ Purpose of this notebook/article is, using Spark framework, to predict whether u
 Article is available on [Medium](https://medium.com/@olivier.klein/sparkify-udacity-data-scientist-nanodegree-capstone-project-65e3181ea2b0?sk=8d8f3c4b066695ee12c27d0411584609).
 
 ## 4. Results <a name="results"></a>
-After testing different machine learning classifiers with default parameters, we achieved a F1-score of 0.7; we could improve this to 0.73 after fine-tuning parameters with a grid search using a random forest classifier.
+After testing different machine learning classifiers with default parameters, we achieved a F1-score of 0.7; after fine-tuning parameters (using a grid search with a random forest classifier), we could improve this to 0.73.
 
-From an analysis perspective, we could notice that the most important features used by the classifier are the number of "thumbs up" / "thumbs down" given by user per song, number of friends added per session, percentage of songs added to playlists, number of adverts and number of songs per session; these parameters indeed seem to represent well customer's satisfaction or dissatsifaction with the service.
+From an analysis perspective, we could notice that the most important features used by the classifier are the number of "thumbs up" / "thumbs down" given by user per song, number of friends added per session, percentage of songs added to playlists, number of adverts and number of songs per session; these parameters are in line with the features we identified as most relevant during data exploration, and indeed seem to represent well customers' satisfaction or dissatisfaction with the service.
 
 ## 5. Licensing <a name="licensing"></a>
-Dataset and image used for this notebook/article are owned by [Udacity](https://www.udacity.com).
+Dataset and image used for this notebook/article are courtesy of [Udacity](https://www.udacity.com).
